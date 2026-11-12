@@ -1,0 +1,1551 @@
+{
+  "publisher": "Yunus Emre Enstitüsü",
+  "collection": "Yedi İklim Türkçe",
+  "downloaded_at": "2026-11-12",
+  "usage": "Local educational copy. Publisher retains rights; public redistribution license not established.",
+  "pages": [
+    {
+      "level": "A1",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "audio": 33,
+      "pdf": 1
+    },
+    {
+      "level": "A2",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a2-ders-kitabi",
+      "audio": 30,
+      "pdf": 1
+    },
+    {
+      "level": "B1",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b1-ders-kitabi",
+      "audio": 27,
+      "pdf": 1
+    },
+    {
+      "level": "B2",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b2-ders-kitabi",
+      "audio": 29,
+      "pdf": 1
+    },
+    {
+      "level": "C1",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-c1-ders-kitabi",
+      "audio": 27,
+      "pdf": 1
+    }
+  ],
+  "files": [
+    {
+      "level": "A1",
+      "kind": "audio",
+      "title": "01_sayfa_10_merhaba",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63488",
+      "path": "assets/yedi-iklim/A1/63488.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "bytes": 998986,
+      "sha256": "df67c25b5f9c26d9d80136e2a8bf944525727f6f68f439e8ee76c8db03fcadd6"
+    },
+    {
+      "level": "A1",
+      "kind": "audio",
+      "title": "02_sayfa_11_tanisalim",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63489",
+      "path": "assets/yedi-iklim/A1/63489.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "bytes": 1308278,
+      "sha256": "226f141a114e91100f486e466f8cffc1c755a7093f1942d34c19c1c0408170b1"
+    },
+    {
+      "level": "A1",
+      "kind": "audio",
+      "title": "03_sayfa_13_alfabe_ogreniyorum",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63497",
+      "path": "assets/yedi-iklim/A1/63497.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "bytes": 10118866,
+      "sha256": "a758d78f8db155b8f6b57a5ae61305a37abf1c02b86da6ce4aa52c5aa0f27d6b"
+    },
+    {
+      "level": "A1",
+      "kind": "audio",
+      "title": "04_sayfa_17_milletler",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63498",
+      "path": "assets/yedi-iklim/A1/63498.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "bytes": 3792627,
+      "sha256": "42dc52873253dd3e8526401605d98886816266c8acada0b4c15e741d0d55652a"
+    },
+    {
+      "level": "A1",
+      "kind": "audio",
+      "title": "05_sayfa_23_kahvalti",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63492",
+      "path": "assets/yedi-iklim/A1/63492.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "bytes": 1391033,
+      "sha256": "31fa9663cdb4f07ba9ee52dd060bed1ee30ce66dfbcbd620ff3b2b9a5efd3fa2"
+    },
+    {
+      "level": "A1",
+      "kind": "audio",
+      "title": "06_sayfa_25_gule_gule_sana",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63505",
+      "path": "assets/yedi-iklim/A1/63505.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "bytes": 9271241,
+      "sha256": "ac8aee5033cecd3b99f2759304c43b82ec18da4ff817ef4436ccdd3ddf7add5c"
+    },
+    {
+      "level": "A1",
+      "kind": "audio",
+      "title": "07_sayfa_26_iyi_gunler",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63501",
+      "path": "assets/yedi-iklim/A1/63501.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "bytes": 1071714,
+      "sha256": "eccbca4b95c1fcb2afef3afabdc016c47e5407d283d6bb5772f6d0afbd4afb44"
+    },
+    {
+      "level": "A1",
+      "kind": "audio",
+      "title": "08_sayfa_27_sayilar",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63507",
+      "path": "assets/yedi-iklim/A1/63507.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "bytes": 4623528,
+      "sha256": "c12cbae5c3e31c7c69a6e778776f163abb38d1507bac9c7282eecf079ad70d0a"
+    },
+    {
+      "level": "A1",
+      "kind": "audio",
+      "title": "09_sayfa_28_kisisel_bilgilerim",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63509",
+      "path": "assets/yedi-iklim/A1/63509.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "bytes": 2926625,
+      "sha256": "b640110d943b7973562bac1843a47065e70d0c3c8b3fc7db7e44ad9403d8a00c"
+    },
+    {
+      "level": "A1",
+      "kind": "audio",
+      "title": "10_sayfa_34_ben_kimim",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63510",
+      "path": "assets/yedi-iklim/A1/63510.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "bytes": 1819024,
+      "sha256": "553e8f96b8f39b9bc0d973a1a3d6556c16ccce3b9db0ac2d5d903f6e735abbad"
+    },
+    {
+      "level": "A1",
+      "kind": "audio",
+      "title": "11_sayfa_39_guzel_evim",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63513",
+      "path": "assets/yedi-iklim/A1/63513.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "bytes": 3508416,
+      "sha256": "36c63ab2c14a5b3683d879f36cf1f8ce674105af64af9274c62729f6db82ae83"
+    },
+    {
+      "level": "A1",
+      "kind": "audio",
+      "title": "12_sayfa_49_evim_nerede",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63511",
+      "path": "assets/yedi-iklim/A1/63511.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "bytes": 1243078,
+      "sha256": "7b17b9d62c18f63209c7873638afef065f89f96905756e2079255df8d2da4f3e"
+    },
+    {
+      "level": "A1",
+      "kind": "audio",
+      "title": "13_sayfa_62_yagmurlu_bir_gun",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63514",
+      "path": "assets/yedi-iklim/A1/63514.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "bytes": 2402502,
+      "sha256": "4591173efe8bacd160f0ac830b0edfd30e950c0b9f8e148c976119be55e748ba"
+    },
+    {
+      "level": "A1",
+      "kind": "audio",
+      "title": "14_sayfa_64_bereket_manavi",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63516",
+      "path": "assets/yedi-iklim/A1/63516.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "bytes": 2384946,
+      "sha256": "5bdf7e0ccc77b1c9a87ad57b6a6d8f13bcde94335debea78fc10c3552a7da912"
+    },
+    {
+      "level": "A1",
+      "kind": "audio",
+      "title": "15_sayfa_70_uzun_ince_bir_yoldayim",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63523",
+      "path": "assets/yedi-iklim/A1/63523.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "bytes": 10047817,
+      "sha256": "8b1cc9ca1503df28cba13e0eb61e2cb601c07f88e11f5b41f6da5db1779957dc"
+    },
+    {
+      "level": "A1",
+      "kind": "audio",
+      "title": "16_sayfa_78_bizim_sokagimiz",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63521",
+      "path": "assets/yedi-iklim/A1/63521.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "bytes": 4606818,
+      "sha256": "fac257c4d2dd28b98c8992e31298669354482aa939a82ead36e9ace36ae857a4"
+    },
+    {
+      "level": "A1",
+      "kind": "audio",
+      "title": "17_sayfa_85_kizilay_meydani",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63522",
+      "path": "assets/yedi-iklim/A1/63522.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "bytes": 2261231,
+      "sha256": "14c9f2b9fa671bcbeb9855b651596dcf71b0235ee15adaf267adfdb71f4acc27"
+    },
+    {
+      "level": "A1",
+      "kind": "audio",
+      "title": "18_sayfa_90_alo_evde_kimse_yok_mu",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63529",
+      "path": "assets/yedi-iklim/A1/63529.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "bytes": 2843036,
+      "sha256": "2cd46c03c2997269022063d0bb7ca32a71c075741371796cf7933909f986a216"
+    },
+    {
+      "level": "A1",
+      "kind": "audio",
+      "title": "19_sayfa_91_haci_bayram_gezisi",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63530",
+      "path": "assets/yedi-iklim/A1/63530.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "bytes": 2948359,
+      "sha256": "d1cf74ad24ab5164db36da2edce183fc8deea71ee1b129609bc06851688d69b2"
+    },
+    {
+      "level": "A1",
+      "kind": "audio",
+      "title": "20_sayfa_103_kizilirmakta_bir_fotografci",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63531",
+      "path": "assets/yedi-iklim/A1/63531.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "bytes": 2853074,
+      "sha256": "e1944fdd0f699942de5edf2d6424cd6d3f90edb1ab9393aba4d0aaa89bae8fca"
+    },
+    {
+      "level": "A1",
+      "kind": "audio",
+      "title": "21_sayfa_105_esranin_meslegi",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63536",
+      "path": "assets/yedi-iklim/A1/63536.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "bytes": 2916592,
+      "sha256": "3db5ea54cfc6f41b1fc58098f4efbd71c60b5fe6aafae4ceae082776702befa9"
+    },
+    {
+      "level": "A1",
+      "kind": "audio",
+      "title": "22_sayfa_111_hobiler",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63533",
+      "path": "assets/yedi-iklim/A1/63533.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "bytes": 1517256,
+      "sha256": "492302855bd4ecc00a859ca7924add4483effbecb51ead32210f68d0314f6585"
+    },
+    {
+      "level": "A1",
+      "kind": "audio",
+      "title": "23_sayfa_118_ucagimiza_hos_geldiniz",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63541",
+      "path": "assets/yedi-iklim/A1/63541.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "bytes": 3538670,
+      "sha256": "99202af18e82ef1c9d99c4b6c09406c916e5f97d4030ff5eabf083c1ff136415"
+    },
+    {
+      "level": "A1",
+      "kind": "audio",
+      "title": "24_sayfa_121_filiz_ve_mehmetin_ozellikleri",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63538",
+      "path": "assets/yedi-iklim/A1/63538.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "bytes": 2206911,
+      "sha256": "ad92a1cc16c8babcf25dbfcd98a4ab4c3d673e8c7f04317b160bb23b671b8afd"
+    },
+    {
+      "level": "A1",
+      "kind": "audio",
+      "title": "25_sayfa_124_otel_nerede",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63545",
+      "path": "assets/yedi-iklim/A1/63545.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "bytes": 2715132,
+      "sha256": "b7b4c1a6e92957b225ce735fa2c3f12e96a83ece05be334738ea632177bdcf0b"
+    },
+    {
+      "level": "A1",
+      "kind": "audio",
+      "title": "26_sayfa_128_bugun_hava_nasil",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63542",
+      "path": "assets/yedi-iklim/A1/63542.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "bytes": 1749651,
+      "sha256": "27ad321344d28e00da22a3f7677e18a21b88e82263b15f0479b66953c20d29b3"
+    },
+    {
+      "level": "A1",
+      "kind": "audio",
+      "title": "27_sayfa_142_cep_telefonu_aliyoruz",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63548",
+      "path": "assets/yedi-iklim/A1/63548.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "bytes": 4343510,
+      "sha256": "9bb30e9f42ee757b37da0d6403e4f39b044148a62c3d62e4546bdff465794c6c"
+    },
+    {
+      "level": "A1",
+      "kind": "audio",
+      "title": "28_sayfa_147_bilgisayarla_iletisim",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63544",
+      "path": "assets/yedi-iklim/A1/63544.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "bytes": 2907551,
+      "sha256": "7c244fba50a159e42e53923674d324fe8fe648e14897c037def65c187ad676d7"
+    },
+    {
+      "level": "A1",
+      "kind": "audio",
+      "title": "29_sayfa_151_sinav_sonucunu_ogrenme",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63555",
+      "path": "assets/yedi-iklim/A1/63555.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "bytes": 4043417,
+      "sha256": "d0abba7cf8fe7a709f402074def3eccf5740b97f178c66ee69f7a2ee1fbba2b4"
+    },
+    {
+      "level": "A1",
+      "kind": "audio",
+      "title": "30_sayfa_158_arkadasim",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63553",
+      "path": "assets/yedi-iklim/A1/63553.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "bytes": 2880641,
+      "sha256": "976fd65b5479558c29c2ca94b37d700d7a05ef890e4f66674453b67bce1f3cc5"
+    },
+    {
+      "level": "A1",
+      "kind": "audio",
+      "title": "31_sayfa_162_alinin_tatili",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63557",
+      "path": "assets/yedi-iklim/A1/63557.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "bytes": 2438445,
+      "sha256": "eab389e5ba8988ed45ef3e9e9fc213b16e6adac0f4abcd92d5012cac1df88271"
+    },
+    {
+      "level": "A1",
+      "kind": "audio",
+      "title": "32_sayfa_169_ramazan_bayrami",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63558",
+      "path": "assets/yedi-iklim/A1/63558.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "bytes": 2048073,
+      "sha256": "232b640d1de7491fd96d89674098fd91db0b25ee3a4f4161b8e6401bd9c826c9"
+    },
+    {
+      "level": "A1",
+      "kind": "audio",
+      "title": "33_sayfa_171_bugun_bayram",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63560",
+      "path": "assets/yedi-iklim/A1/63560.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "bytes": 5466976,
+      "sha256": "66f18f97529373fc23479eeb1a30dac3e4f67b4291fb967a95088fbaa16c0912"
+    },
+    {
+      "level": "A1",
+      "kind": "pdf",
+      "title": "Yedi İklim Türkçe A1 Ders Kitabı",
+      "url": "https://www.yee.org.tr/api/v1/media/file/62511",
+      "path": "assets/yedi-iklim/A1/ders-kitabi.pdf",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a1-ders-kitabi",
+      "bytes": 13684275,
+      "sha256": "c117df1937bd5ab44be3015fa0e4fed365c0aabe9fc1a26cafbb84b0d0021316"
+    },
+    {
+      "level": "A2",
+      "kind": "audio",
+      "title": "01_sayfa_15_salih_korkmaz",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63438",
+      "path": "assets/yedi-iklim/A2/63438.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a2-ders-kitabi",
+      "bytes": 2470208,
+      "sha256": "c271617e7a957812a9e935d724b8cfa869b165ded2f8f2056f8749e3de008f4f"
+    },
+    {
+      "level": "A2",
+      "kind": "audio",
+      "title": "02_sayfa_17_yaren_ve_ailesi",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63442",
+      "path": "assets/yedi-iklim/A2/63442.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a2-ders-kitabi",
+      "bytes": 4175484,
+      "sha256": "302c68eea5fd3c68c5dfe08e5dad5d844dd043fbdc4f908665156c2831260e47"
+    },
+    {
+      "level": "A2",
+      "kind": "audio",
+      "title": "03_sayfa_21_hangi_sehir_hangi_kisi",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63446",
+      "path": "assets/yedi-iklim/A2/63446.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a2-ders-kitabi",
+      "bytes": 4274129,
+      "sha256": "503e9a7c45de024ceed76ded9a2a35626dafe8a8a9182689da21467164e6c34b"
+    },
+    {
+      "level": "A2",
+      "kind": "audio",
+      "title": "04_sayfa_23_peronda",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63445",
+      "path": "assets/yedi-iklim/A2/63445.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a2-ders-kitabi",
+      "bytes": 1696142,
+      "sha256": "15141cb3b5b74177124cce0f1e2bffb66ed4eb9742f683b17e3ffe34759daddd"
+    },
+    {
+      "level": "A2",
+      "kind": "audio",
+      "title": "05_sayfa_30_bahar_hastaliklarina_dikkat",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63450",
+      "path": "assets/yedi-iklim/A2/63450.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a2-ders-kitabi",
+      "bytes": 4123669,
+      "sha256": "6a04c7525e568a29918eafa2858a476d51a319d905f3ae1063a7b995d5ee454c"
+    },
+    {
+      "level": "A2",
+      "kind": "audio",
+      "title": "06_sayfa_37_nane_limon_kabugu",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63453",
+      "path": "assets/yedi-iklim/A2/63453.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a2-ders-kitabi",
+      "bytes": 8982852,
+      "sha256": "af7da47839358b8f28bb4516698b072bdf99714e2d65372b3b69a6a89f5349f9"
+    },
+    {
+      "level": "A2",
+      "kind": "audio",
+      "title": "07_sayfa_39_saglikli_yasam_saglikli_cevre",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63452",
+      "path": "assets/yedi-iklim/A2/63452.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a2-ders-kitabi",
+      "bytes": 2805428,
+      "sha256": "3c1f23036f565032be8b4ca6c0efca0d44ef5d54e20f08a2f94300b7e997aa50"
+    },
+    {
+      "level": "A2",
+      "kind": "audio",
+      "title": "08_sayfa_43_uskudarda_zincirleme_trafik_kazasi",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63458",
+      "path": "assets/yedi-iklim/A2/63458.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a2-ders-kitabi",
+      "bytes": 3750020,
+      "sha256": "a1ec469ade9c83b686f5b4af9a47558149010b27437d815921df677b21b097b6"
+    },
+    {
+      "level": "A2",
+      "kind": "audio",
+      "title": "09_sayfa_44_hastanede",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63456",
+      "path": "assets/yedi-iklim/A2/63456.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a2-ders-kitabi",
+      "bytes": 1544007,
+      "sha256": "a9f678324d82d6bd91394c3551332940c319d3271991c7f02a767e96b0870bab"
+    },
+    {
+      "level": "A2",
+      "kind": "audio",
+      "title": "10_sayfa_50_kitap_saati",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63459",
+      "path": "assets/yedi-iklim/A2/63459.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a2-ders-kitabi",
+      "bytes": 4553315,
+      "sha256": "cd8cbbcc0730a416038b58fd1f0a501ccb18a51a68ec55d8026787c9188082e5"
+    },
+    {
+      "level": "A2",
+      "kind": "audio",
+      "title": "11_sayfa_56_devlerin_aski",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63461",
+      "path": "assets/yedi-iklim/A2/63461.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a2-ders-kitabi",
+      "bytes": 4697931,
+      "sha256": "1308cb7ad37a8d89779a9d9c21ac373d40943924167c4a167715133279f71a3b"
+    },
+    {
+      "level": "A2",
+      "kind": "audio",
+      "title": "12_sayfa_63_kim_ne_yapiyor",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63464",
+      "path": "assets/yedi-iklim/A2/63464.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a2-ders-kitabi",
+      "bytes": 4868459,
+      "sha256": "3be78ab386b261c60c8d758c1df5bcfb470bdf487949f7e76ab212ac3a85d181"
+    },
+    {
+      "level": "A2",
+      "kind": "audio",
+      "title": "13_sayfa_75_anzak_gunu_etkinlikleri",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63462",
+      "path": "assets/yedi-iklim/A2/63462.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a2-ders-kitabi",
+      "bytes": 2917435,
+      "sha256": "f9742877767b63362d64b9a220a24aebe5fc04e00fbfe6638be971e53e6bdcd5"
+    },
+    {
+      "level": "A2",
+      "kind": "audio",
+      "title": "14_sayfa_80_nehir_pansiyonu",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63468",
+      "path": "assets/yedi-iklim/A2/63468.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a2-ders-kitabi",
+      "bytes": 6637263,
+      "sha256": "9a20387feadd2aee525f9e2d0e69edaf7bc4b3f54035ad5866857777b1f91ca8"
+    },
+    {
+      "level": "A2",
+      "kind": "audio",
+      "title": "15_sayfa_81_ayder_senlikleri",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63467",
+      "path": "assets/yedi-iklim/A2/63467.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a2-ders-kitabi",
+      "bytes": 3872047,
+      "sha256": "f2f40acf0e1224ab85ed473830f265c2e564936860069072940a2da402dbd671"
+    },
+    {
+      "level": "A2",
+      "kind": "audio",
+      "title": "16_sayfa_86_afiyet_olsun",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63469",
+      "path": "assets/yedi-iklim/A2/63469.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a2-ders-kitabi",
+      "bytes": 3473309,
+      "sha256": "97fce96da7657d234290fbb940b667a9fcb8d786b0c090b0b70f4190643b1f11"
+    },
+    {
+      "level": "A2",
+      "kind": "audio",
+      "title": "17_sayfa_96_meyveleri_nasil_yeriz",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63474",
+      "path": "assets/yedi-iklim/A2/63474.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a2-ders-kitabi",
+      "bytes": 2887340,
+      "sha256": "6670cf11d679b0494f15120fc20610d10d3199169035baa42430998f9e0497fc"
+    },
+    {
+      "level": "A2",
+      "kind": "audio",
+      "title": "18_sayfa_104_hayatin_degeri",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63473",
+      "path": "assets/yedi-iklim/A2/63473.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a2-ders-kitabi",
+      "bytes": 4653629,
+      "sha256": "ea2cb343896cd0807405d0502f74e4d4c6655f16ee99059ef0aa5e765a19193d"
+    },
+    {
+      "level": "A2",
+      "kind": "audio",
+      "title": "19_sayfa_108_ayagimizi_yerden_kesiyoruz",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63475",
+      "path": "assets/yedi-iklim/A2/63475.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a2-ders-kitabi",
+      "bytes": 3240103,
+      "sha256": "640716c6dce9b3158e00a8780f9b14e584497ed44d8be1cc5a9d176eaf4ca3fa"
+    },
+    {
+      "level": "A2",
+      "kind": "audio",
+      "title": "20_sayfa_116_yurtta_bir_sabah",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63479",
+      "path": "assets/yedi-iklim/A2/63479.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a2-ders-kitabi",
+      "bytes": 5535525,
+      "sha256": "d6da64d95a9fde01ac5d990b6fbd65f3d0e470a63f156157a2ab6f68b32955e7"
+    },
+    {
+      "level": "A2",
+      "kind": "audio",
+      "title": "21_sayfa_117_senden_baska",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63481",
+      "path": "assets/yedi-iklim/A2/63481.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a2-ders-kitabi",
+      "bytes": 5640847,
+      "sha256": "6c3c97e20950f1e4bc48a4f358494ea9b613c9a6f09473c0d34cdeb8babd6473"
+    },
+    {
+      "level": "A2",
+      "kind": "audio",
+      "title": "22_sayfa_125_tuz_kadar_sevmek",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63484",
+      "path": "assets/yedi-iklim/A2/63484.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a2-ders-kitabi",
+      "bytes": 9500286,
+      "sha256": "2976ea9d16ae547f66b1e211931c8e6a9b75d9ede6647fded939310ef1208d3d"
+    },
+    {
+      "level": "A2",
+      "kind": "audio",
+      "title": "23_sayfa_127_mektup",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63485",
+      "path": "assets/yedi-iklim/A2/63485.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a2-ders-kitabi",
+      "bytes": 2286300,
+      "sha256": "d878530059251dbc0559a54a65a1a8b0f2471e4e86207b8b0f6b4a91838275ed"
+    },
+    {
+      "level": "A2",
+      "kind": "audio",
+      "title": "24_sayfa_132_teknoloji_ve_biz",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63487",
+      "path": "assets/yedi-iklim/A2/63487.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a2-ders-kitabi",
+      "bytes": 2973435,
+      "sha256": "ab369032c44ab7878d2fe32fdeac2d8a4ea5c739218ca211761db8c72c6a316f"
+    },
+    {
+      "level": "A2",
+      "kind": "audio",
+      "title": "25_sayfa_138_nicin",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63493",
+      "path": "assets/yedi-iklim/A2/63493.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a2-ders-kitabi",
+      "bytes": 6326293,
+      "sha256": "190745126cf01ce2af982630917c89d600d6f10d8385f49418e9c7bf4bd07495"
+    },
+    {
+      "level": "A2",
+      "kind": "audio",
+      "title": "26_sayfa_143_kirmizi_baslikli_kiz",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63495",
+      "path": "assets/yedi-iklim/A2/63495.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a2-ders-kitabi",
+      "bytes": 6753462,
+      "sha256": "ce532e3a40f2988a28a1ab5b41f12d22f8249c7b26539b90ade775617096e23e"
+    },
+    {
+      "level": "A2",
+      "kind": "audio",
+      "title": "27_sayfa_158_nasrettin_hocadan_fikralar",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63494",
+      "path": "assets/yedi-iklim/A2/63494.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a2-ders-kitabi",
+      "bytes": 3703202,
+      "sha256": "adb432f1175e49b0a881390192b52ce889a48de3fae248020d6deb1b8f9bfa4f"
+    },
+    {
+      "level": "A2",
+      "kind": "audio",
+      "title": "28_sayfa_159_renklerle_kisiligimizi_ogrenelim",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63506",
+      "path": "assets/yedi-iklim/A2/63506.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a2-ders-kitabi",
+      "bytes": 7511652,
+      "sha256": "e3fbb5583323eb4badf463ff9d873f325c4c4486925de55fa8fe0a9e863c24ee"
+    },
+    {
+      "level": "A2",
+      "kind": "audio",
+      "title": "29_sayfa_162_senol_gunes",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63502",
+      "path": "assets/yedi-iklim/A2/63502.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a2-ders-kitabi",
+      "bytes": 2392467,
+      "sha256": "248554a3ec66b87e5c5d7b0a712ae2cf3d459cddf2fda1c461f727a19f067181"
+    },
+    {
+      "level": "A2",
+      "kind": "audio",
+      "title": "30_sayfa_165_yasliliga_hazir_misiniz",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63504",
+      "path": "assets/yedi-iklim/A2/63504.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a2-ders-kitabi",
+      "bytes": 3970693,
+      "sha256": "d9600c6515db9a7fb72e756cfda5990640f209f4a281c5d5f6eeff2d75bd6989"
+    },
+    {
+      "level": "A2",
+      "kind": "pdf",
+      "title": "Yedi İklim Türkçe A2 Ders Kitabı",
+      "url": "https://www.yee.org.tr/api/v1/media/file/62505",
+      "path": "assets/yedi-iklim/A2/ders-kitabi.pdf",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-a2-ders-kitabi",
+      "bytes": 8294442,
+      "sha256": "8db8c565776e4fd0d01bf9cb83efd47811299e544e308b521ca407c678bd573a"
+    },
+    {
+      "level": "B1",
+      "kind": "audio",
+      "title": "01_sayfa_12_bizim_mahalle",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63357",
+      "path": "assets/yedi-iklim/B1/63357.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b1-ders-kitabi",
+      "bytes": 5982714,
+      "sha256": "b4b9318cf2f7044825ffa7a98c27e17b05265fa29b09843f76906f88f4d303ad"
+    },
+    {
+      "level": "B1",
+      "kind": "audio",
+      "title": "02_sayfa_18_aksam_haberleri",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63368",
+      "path": "assets/yedi-iklim/B1/63368.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b1-ders-kitabi",
+      "bytes": 4574192,
+      "sha256": "849aef72b3f8fcb3ef7aa9b5387a8ad79e4b6591d94c848010fe3b42bcbc6923"
+    },
+    {
+      "level": "B1",
+      "kind": "audio",
+      "title": "03_sayfa_21_googlenin_oykusu",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63366",
+      "path": "assets/yedi-iklim/B1/63366.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b1-ders-kitabi",
+      "bytes": 5262989,
+      "sha256": "5165bc4ea6052f9180c3e9108c86cb9e95e565a8f0c719c034387402877ab493"
+    },
+    {
+      "level": "B1",
+      "kind": "audio",
+      "title": "04_sayfa_29_yalan_dunya",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63374",
+      "path": "assets/yedi-iklim/B1/63374.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b1-ders-kitabi",
+      "bytes": 6688230,
+      "sha256": "d809589b893d67cb7c0755d897e192070d7ca936bb91026a7093c42fee50e203"
+    },
+    {
+      "level": "B1",
+      "kind": "audio",
+      "title": "05_sayfa_31_etem_caliskanla_sohbet",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63383",
+      "path": "assets/yedi-iklim/B1/63383.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b1-ders-kitabi",
+      "bytes": 7764892,
+      "sha256": "fef07c7cfac54f260de35fb48b893665dd5203ae810da2a5ca3b55d3d0e515ba"
+    },
+    {
+      "level": "B1",
+      "kind": "audio",
+      "title": "06_sayfa_34_ruyalarda_bulusuruz",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63389",
+      "path": "assets/yedi-iklim/B1/63389.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b1-ders-kitabi",
+      "bytes": 11330920,
+      "sha256": "44dcb0a10d5be59dd1524d7658efc475c49283bfd6112cc6412e19979a80fde8"
+    },
+    {
+      "level": "B1",
+      "kind": "audio",
+      "title": "07_sayfa_37_calismak_istiyoruz",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63387",
+      "path": "assets/yedi-iklim/B1/63387.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b1-ders-kitabi",
+      "bytes": 3021920,
+      "sha256": "4504c1d694094a6fc476c1aebc95240c7823fbf0eb99362acba7f6c90bd85287"
+    },
+    {
+      "level": "B1",
+      "kind": "audio",
+      "title": "08_sayfa_41_gecmisten_gunumuze_gazete",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63404",
+      "path": "assets/yedi-iklim/B1/63404.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b1-ders-kitabi",
+      "bytes": 10873673,
+      "sha256": "a130d47db4a8e8545ad23a1fce21a4df816585954356862fad28c6472f426538"
+    },
+    {
+      "level": "B1",
+      "kind": "audio",
+      "title": "09_sayfa_49_sinav_sonucu_belli_oldu",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63400",
+      "path": "assets/yedi-iklim/B1/63400.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b1-ders-kitabi",
+      "bytes": 3834404,
+      "sha256": "f8c391369bce0e02cd7ab77da83c473935b38dd509509397080f5ec80ccd0b36"
+    },
+    {
+      "level": "B1",
+      "kind": "audio",
+      "title": "10_sayfa_60_okul_oncesi_egitim",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63403",
+      "path": "assets/yedi-iklim/B1/63403.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b1-ders-kitabi",
+      "bytes": 6036213,
+      "sha256": "968e6872c6f5ae4c1cea4849f18b8e1cb950887cb4731d6e37609c60de15b396"
+    },
+    {
+      "level": "B1",
+      "kind": "audio",
+      "title": "11_sayfa_63_dunyadaki_ilginc_kutuphaneler",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63410",
+      "path": "assets/yedi-iklim/B1/63410.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b1-ders-kitabi",
+      "bytes": 6998355,
+      "sha256": "6ef9a5f834e2d8c14058541bec76cfb3a9cd9a796d5fcf85b5ea335fbee9f945"
+    },
+    {
+      "level": "B1",
+      "kind": "audio",
+      "title": "12_sayfa_74_her_kapiyi_acan_anahtar_yabanci_dil",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63412",
+      "path": "assets/yedi-iklim/B1/63412.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b1-ders-kitabi",
+      "bytes": 7193124,
+      "sha256": "cf47972d09164ea6a3dd5956cc48a8d2fad8937c259ffa31a09e4a0cc34b18f6"
+    },
+    {
+      "level": "B1",
+      "kind": "audio",
+      "title": "13_sayfa_78_emlakcida",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63411",
+      "path": "assets/yedi-iklim/B1/63411.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b1-ders-kitabi",
+      "bytes": 4213930,
+      "sha256": "d157964518a0885e841a124f0fd7b148bc7fa5a546b8196441a8fdb93908342f"
+    },
+    {
+      "level": "B1",
+      "kind": "audio",
+      "title": "14_sayfa_83_servis_gorevlisini_beklerken",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63416",
+      "path": "assets/yedi-iklim/B1/63416.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b1-ders-kitabi",
+      "bytes": 5750329,
+      "sha256": "2234c36f008b2575145473be434126fafec0beb064b837c02362c6b40f052eae"
+    },
+    {
+      "level": "B1",
+      "kind": "audio",
+      "title": "15_sayfa_93_beethoven",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63418",
+      "path": "assets/yedi-iklim/B1/63418.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b1-ders-kitabi",
+      "bytes": 6228474,
+      "sha256": "f7f814842bb0a283ca4e3082bd41f487784a730ed829182ba92a3015f30cf37e"
+    },
+    {
+      "level": "B1",
+      "kind": "audio",
+      "title": "16_sayfa_98_ankara_film_festivali",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63417",
+      "path": "assets/yedi-iklim/B1/63417.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b1-ders-kitabi",
+      "bytes": 2842169,
+      "sha256": "dc84af01ca16acf6760944043f6fabecdc8278bd3196702a1158a76093caa0f9"
+    },
+    {
+      "level": "B1",
+      "kind": "audio",
+      "title": "17_sayfa_101_bu_kim",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63424",
+      "path": "assets/yedi-iklim/B1/63424.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b1-ders-kitabi",
+      "bytes": 6174140,
+      "sha256": "7502ea0ed1ab06c3e473117690929c716114b0434716877d18561d37a83185ff"
+    },
+    {
+      "level": "B1",
+      "kind": "audio",
+      "title": "18_sayfa_112_elias_howe",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63423",
+      "path": "assets/yedi-iklim/B1/63423.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b1-ders-kitabi",
+      "bytes": 6198381,
+      "sha256": "a0c7b88a735ebe141e32430c850a5ef827321377ed5acb8eda99d3ed9888faa5"
+    },
+    {
+      "level": "B1",
+      "kind": "audio",
+      "title": "19_sayfa_120_film_dunyasi",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63421",
+      "path": "assets/yedi-iklim/B1/63421.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b1-ders-kitabi",
+      "bytes": 4178803,
+      "sha256": "a053589404790a8ab1d589666193dd41a47b2e0fc7b424fed09f8f20499b16a9"
+    },
+    {
+      "level": "B1",
+      "kind": "audio",
+      "title": "20_sayfa_121_agustos_bocegi_ile_karinca",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63431",
+      "path": "assets/yedi-iklim/B1/63431.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b1-ders-kitabi",
+      "bytes": 4575176,
+      "sha256": "f294262080ee944c6f6072f92619376de6220fb2f4c830f00445bd58888abf81"
+    },
+    {
+      "level": "B1",
+      "kind": "audio",
+      "title": "21_sayfa_124_festivaller",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63434",
+      "path": "assets/yedi-iklim/B1/63434.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b1-ders-kitabi",
+      "bytes": 6633895,
+      "sha256": "ffc030a846db1ead4b3e363b0bef2095b8e041239446ccdff29ec6790e433212"
+    },
+    {
+      "level": "B1",
+      "kind": "audio",
+      "title": "22_sayfa_132_festivaller",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63432",
+      "path": "assets/yedi-iklim/B1/63432.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b1-ders-kitabi",
+      "bytes": 4116109,
+      "sha256": "d3df09ac3827a0f11408cb8b0f8111e7c025cc82fee455c7640aaf6806641c24"
+    },
+    {
+      "level": "B1",
+      "kind": "audio",
+      "title": "23_sayfa_137_seker_gibi_bir_bayram",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63439",
+      "path": "assets/yedi-iklim/B1/63439.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b1-ders-kitabi",
+      "bytes": 4963730,
+      "sha256": "15ff9b0e50491761301a3b5ca10e99c723169ee42a86f76102475bddf9b6e7f7"
+    },
+    {
+      "level": "B1",
+      "kind": "audio",
+      "title": "24_sayfa_143_dunyadaki_dogum_gunu_kutlamalari",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63437",
+      "path": "assets/yedi-iklim/B1/63437.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b1-ders-kitabi",
+      "bytes": 4701252,
+      "sha256": "06e0fed4a2e611307acea9021b76f5dfe02fd2d6f2e38b77fe35c44b4fd46b0f"
+    },
+    {
+      "level": "B1",
+      "kind": "audio",
+      "title": "25_sayfa_154_emrah_ile_selvihan",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63449",
+      "path": "assets/yedi-iklim/B1/63449.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b1-ders-kitabi",
+      "bytes": 10367942,
+      "sha256": "d50260d951eaa0bae5045405fc67965b59dded575e98709fa66797e3849d609b"
+    },
+    {
+      "level": "B1",
+      "kind": "audio",
+      "title": "26_sayfa_159_bir_basari_oykusu",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63448",
+      "path": "assets/yedi-iklim/B1/63448.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b1-ders-kitabi",
+      "bytes": 3200778,
+      "sha256": "af91706d2caffecc187fc00dab0c0fcb3af953de3541389b4812e1d7357a7549"
+    },
+    {
+      "level": "B1",
+      "kind": "audio",
+      "title": "27_sayfa_163_idil_biret",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63451",
+      "path": "assets/yedi-iklim/B1/63451.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b1-ders-kitabi",
+      "bytes": 5534662,
+      "sha256": "d9a9533dc07098259a961c36d57e3128cd08571132cb0dbe10a89f4a2087b5de"
+    },
+    {
+      "level": "B1",
+      "kind": "pdf",
+      "title": "Yedi İklim Türkçe B1 Ders Kitabı",
+      "url": "https://www.yee.org.tr/api/v1/media/file/62502",
+      "path": "assets/yedi-iklim/B1/ders-kitabi.pdf",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b1-ders-kitabi",
+      "bytes": 5488974,
+      "sha256": "fbc84e798d07c24c81003dd8666f15e1abdde3a51802545906630cf1acb5b73a"
+    },
+    {
+      "level": "B2",
+      "kind": "audio",
+      "title": "01_sayfa_15_is_basvurusu_hikayesi",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63342",
+      "path": "assets/yedi-iklim/B2/63342.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b2-ders-kitabi",
+      "bytes": 6058783,
+      "sha256": "6434108482cdeeaabf6ba3b0b78e91007a9cd104e2ab062aa5017ad64bc6f63e"
+    },
+    {
+      "level": "B2",
+      "kind": "audio",
+      "title": "02_sayfa_22_zirvedekilerden_altin_ogutler",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63345",
+      "path": "assets/yedi-iklim/B2/63345.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b2-ders-kitabi",
+      "bytes": 16707547,
+      "sha256": "59dac2459e795b6f65998f735ee862769894b01e6dc9cabd17296db1fb0c0b60"
+    },
+    {
+      "level": "B2",
+      "kind": "audio",
+      "title": "03_sayfa_30_degisim_toplantisi",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63341",
+      "path": "assets/yedi-iklim/B2/63341.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b2-ders-kitabi",
+      "bytes": 5115867,
+      "sha256": "29e8903a20ea0225f523a944e606b9ec74c53f10b69609a2542ef2dde1bab901"
+    },
+    {
+      "level": "B2",
+      "kind": "audio",
+      "title": "04_sayfa_40_farkli_dugunler",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63360",
+      "path": "assets/yedi-iklim/B2/63360.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b2-ders-kitabi",
+      "bytes": 10642123,
+      "sha256": "17a69a4eb37e42e2e6b7cf6f62f01b4960e0a3f1d0d31655ef93093bef8cc4ba"
+    },
+    {
+      "level": "B2",
+      "kind": "audio",
+      "title": "05_sayfa_47_kan_kardesligi",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63352",
+      "path": "assets/yedi-iklim/B2/63352.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b2-ders-kitabi",
+      "bytes": 2709258,
+      "sha256": "3ee8fb5a86290525f0abf9c2f6faf4177056cf9b20bd1744f0a089c08593597e"
+    },
+    {
+      "level": "B2",
+      "kind": "audio",
+      "title": "06_sayfa_52_yuzuk_nerede",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63356",
+      "path": "assets/yedi-iklim/B2/63356.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b2-ders-kitabi",
+      "bytes": 3227527,
+      "sha256": "1c664c25ce604821c0145663e3b53c4222e4fcf835aad9c842398c4db27aa190"
+    },
+    {
+      "level": "B2",
+      "kind": "audio",
+      "title": "07_sayfa_53_kazan_dogurdu",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63364",
+      "path": "assets/yedi-iklim/B2/63364.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b2-ders-kitabi",
+      "bytes": 3123874,
+      "sha256": "4f023a991b114fb9ff273de20b332f76d38f82288019c8d1286122fdafb155b2"
+    },
+    {
+      "level": "B2",
+      "kind": "audio",
+      "title": "08_sayfa_58_altin_top",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63372",
+      "path": "assets/yedi-iklim/B2/63372.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b2-ders-kitabi",
+      "bytes": 8417745,
+      "sha256": "7edd4725d9ba0f8f978e6229f26c1517cbedd83e665d53348cbfc94925208de9"
+    },
+    {
+      "level": "B2",
+      "kind": "audio",
+      "title": "09_sayfa_60_adini_kim_koysun",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63377",
+      "path": "assets/yedi-iklim/B2/63377.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b2-ders-kitabi",
+      "bytes": 7071106,
+      "sha256": "60fa933ce332203368cfb82a171e076e7a95835eaba0a8afe603bd2b36277d96"
+    },
+    {
+      "level": "B2",
+      "kind": "audio",
+      "title": "10_sayfa_64_universiteli_genclerin_sorunlari",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63376",
+      "path": "assets/yedi-iklim/B2/63376.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b2-ders-kitabi",
+      "bytes": 3760843,
+      "sha256": "3d11fcc9e9dcd50016a13d5751ae38aa58b0afd65d695424e7fc27ac782aae4f"
+    },
+    {
+      "level": "B2",
+      "kind": "audio",
+      "title": "11_sayfa_71_tahta_canaklar",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63390",
+      "path": "assets/yedi-iklim/B2/63390.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b2-ders-kitabi",
+      "bytes": 7111204,
+      "sha256": "9b2a124b8ad50d61e4dd1ae7702ffac43f5c713c24c3e5c84500660381fc2d36"
+    },
+    {
+      "level": "B2",
+      "kind": "audio",
+      "title": "12_sayfa_76_yasliliga_hazir_misiniz",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63394",
+      "path": "assets/yedi-iklim/B2/63394.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b2-ders-kitabi",
+      "bytes": 8825673,
+      "sha256": "99a58353c658ca13c389c7a33a4f623813674b5a211edc1ff722c53d70831159"
+    },
+    {
+      "level": "B2",
+      "kind": "audio",
+      "title": "13_sayfa_87_hayatin_isleyisi",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63396",
+      "path": "assets/yedi-iklim/B2/63396.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b2-ders-kitabi",
+      "bytes": 5950950,
+      "sha256": "972d39a2acba8b5ad8707e781c20eb47a55461035a0b93a85a519d0a7dcc272c"
+    },
+    {
+      "level": "B2",
+      "kind": "audio",
+      "title": "14_sayfa_89_su_hayattir",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63406",
+      "path": "assets/yedi-iklim/B2/63406.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b2-ders-kitabi",
+      "bytes": 7838453,
+      "sha256": "4ae40ad9fb388d27a3259877af7d2e7980eead31f2ba4eb4fd86ad7cabf7a930"
+    },
+    {
+      "level": "B2",
+      "kind": "audio",
+      "title": "15_sayfa_92_emine_hanim",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63409",
+      "path": "assets/yedi-iklim/B2/63409.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b2-ders-kitabi",
+      "bytes": 5407603,
+      "sha256": "553af78f8209affbc945a92e207ecc4dc37c40fe3c5942463e210cd8286d81bf"
+    },
+    {
+      "level": "B2",
+      "kind": "audio",
+      "title": "16_sayfa_93_can_bogazdan_gelir",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63407",
+      "path": "assets/yedi-iklim/B2/63407.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b2-ders-kitabi",
+      "bytes": 3804311,
+      "sha256": "390f7020f2213489ab43cd28abbd1e6b19169a6d59a9aecdccdc32be31b084bd"
+    },
+    {
+      "level": "B2",
+      "kind": "audio",
+      "title": "17_sayfa_104_koyde_hayat",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63413",
+      "path": "assets/yedi-iklim/B2/63413.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b2-ders-kitabi",
+      "bytes": 5996111,
+      "sha256": "e7ae3f0be4e1daead1ee336c8b642c2441e277a35c208374bea8cf45c6f20ea8"
+    },
+    {
+      "level": "B2",
+      "kind": "audio",
+      "title": "18_sayfa_108_caliskan_karadeniz_kadinlari",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63414",
+      "path": "assets/yedi-iklim/B2/63414.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b2-ders-kitabi",
+      "bytes": 9153392,
+      "sha256": "c5a57e3e578748b2fb6cbc8dd485c3bf1fc451df2f802fe0f0d41859200448cd"
+    },
+    {
+      "level": "B2",
+      "kind": "audio",
+      "title": "19_sayfa_112_sanatlarin_en_buyugu",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63415",
+      "path": "assets/yedi-iklim/B2/63415.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b2-ders-kitabi",
+      "bytes": 5751196,
+      "sha256": "0331fde8d9b7528e5d59923813a334fd5e875a829a10f60c0fb4bcabbf572fd9"
+    },
+    {
+      "level": "B2",
+      "kind": "audio",
+      "title": "20_sayfa_123_hava_durumu",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63425",
+      "path": "assets/yedi-iklim/B2/63425.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b2-ders-kitabi",
+      "bytes": 9506968,
+      "sha256": "972e5bd0abe70a77dc1ed9df748984e55d0d9be2cb33aae8c60bd374bff16a1d"
+    },
+    {
+      "level": "B2",
+      "kind": "audio",
+      "title": "21_sayfa_132_ne_izliyoruz",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63419",
+      "path": "assets/yedi-iklim/B2/63419.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b2-ders-kitabi",
+      "bytes": 4387805,
+      "sha256": "f22741a4999c7631e6ae5a5a4347c9ba72212a02958a0fe12b427b754e78b603"
+    },
+    {
+      "level": "B2",
+      "kind": "audio",
+      "title": "22_sayfa_134_23_yillik_bekleyis",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63422",
+      "path": "assets/yedi-iklim/B2/63422.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b2-ders-kitabi",
+      "bytes": 4087716,
+      "sha256": "b7ab866f87b000bd06b0aaad5ecbaedc0a9dde62fa2d185943e3b4a4e202c6d9"
+    },
+    {
+      "level": "B2",
+      "kind": "audio",
+      "title": "23_sayfa_145_farkli_ogrenenler_farkli_davranirlar",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63429",
+      "path": "assets/yedi-iklim/B2/63429.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b2-ders-kitabi",
+      "bytes": 3401445,
+      "sha256": "05484c0592492c129cde9230b317614d4115fffa1088d0a3e972c9abefca848a"
+    },
+    {
+      "level": "B2",
+      "kind": "audio",
+      "title": "24_sayfa_147_neler_yapilmamali",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63430",
+      "path": "assets/yedi-iklim/B2/63430.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b2-ders-kitabi",
+      "bytes": 4717998,
+      "sha256": "eab6da73e23530a17e0fd3aa350fb46dc41d168ac96425bb50045e9e0a4879e9"
+    },
+    {
+      "level": "B2",
+      "kind": "audio",
+      "title": "25_sayfa_154_nasil_basardiklarini_merak_ediyorum",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63433",
+      "path": "assets/yedi-iklim/B2/63433.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b2-ders-kitabi",
+      "bytes": 4973807,
+      "sha256": "cfed7dfac159f04398d8b27519f5ac01f669a985a97cfc1bad9a5d12cde0ab94"
+    },
+    {
+      "level": "B2",
+      "kind": "audio",
+      "title": "26_sayfa_162_turk_kahvesi",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63440",
+      "path": "assets/yedi-iklim/B2/63440.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b2-ders-kitabi",
+      "bytes": 5916700,
+      "sha256": "43deabc026383e673e1f6a126fd43d4ec68be961a93cfca6a5742584cef5b020"
+    },
+    {
+      "level": "B2",
+      "kind": "audio",
+      "title": "27_sayfa_171_atolye_ziyareti",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63444",
+      "path": "assets/yedi-iklim/B2/63444.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b2-ders-kitabi",
+      "bytes": 7791668,
+      "sha256": "1f0111ead84afd66b7ff1bd86ddc1fd391b50c890213b6c08116c57b5189273a"
+    },
+    {
+      "level": "B2",
+      "kind": "audio",
+      "title": "28_sayfa_175_avrupali_ogrenciler_turk_kulturunu_ogreniyor",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63443",
+      "path": "assets/yedi-iklim/B2/63443.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b2-ders-kitabi",
+      "bytes": 5264716,
+      "sha256": "175fea8334f7d9c5c84f011e8eaf27dd78feb51c4376c0a18aea418ca5eadeae"
+    },
+    {
+      "level": "B2",
+      "kind": "audio",
+      "title": "29_sayfa_177_damdan_dustum",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63447",
+      "path": "assets/yedi-iklim/B2/63447.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b2-ders-kitabi",
+      "bytes": 1697821,
+      "sha256": "38e8cccf49ca12aa76806bff4b0c556bcc7235999a39a5675a102dec36b09d4e"
+    },
+    {
+      "level": "B2",
+      "kind": "pdf",
+      "title": "Yedi İklim Türkçe B2 Ders Kitabı",
+      "url": "https://www.yee.org.tr/api/v1/media/file/62496",
+      "path": "assets/yedi-iklim/B2/ders-kitabi.pdf",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-b2-ders-kitabi",
+      "bytes": 5981587,
+      "sha256": "e6d966e0bf83d6b6b74129a5628ec41225032bbfd681afe463c8d1a381fbbed1"
+    },
+    {
+      "level": "C1",
+      "kind": "audio",
+      "title": "01_sayfa_14_olimpiyat_oyunlarinda_yasanmis_ilginc_olaylar",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63428",
+      "path": "assets/yedi-iklim/C1/63428.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-c1-ders-kitabi",
+      "bytes": 14571776,
+      "sha256": "48ca7af64e5ce9608867a4b612f8005f7c91d35baef4fd3300d60605dbdf70ca"
+    },
+    {
+      "level": "C1",
+      "kind": "audio",
+      "title": "02_sayfa_20_turkiye_destan_yazdi",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63427",
+      "path": "assets/yedi-iklim/C1/63427.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-c1-ders-kitabi",
+      "bytes": 17452382,
+      "sha256": "fd226c20701555bbc28d76c23b696d33895b41b4fcb8ca82571cadfb11f5354d"
+    },
+    {
+      "level": "C1",
+      "kind": "audio",
+      "title": "03_sayfa_26_sporcular_nasil_beslenir",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63426",
+      "path": "assets/yedi-iklim/C1/63426.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-c1-ders-kitabi",
+      "bytes": 13200870,
+      "sha256": "3637ddc29e5bcae3b6ae3120b91499c6238ced017eb5f27d3d7fb131a41f8649"
+    },
+    {
+      "level": "C1",
+      "kind": "audio",
+      "title": "04_sayfa_42_deveyle_22_yil_seyahat",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63435",
+      "path": "assets/yedi-iklim/C1/63435.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-c1-ders-kitabi",
+      "bytes": 5872405,
+      "sha256": "6297a67462256ede123d35755a96fbd0523a3c4f5da22666fe16f6f531e5aca8"
+    },
+    {
+      "level": "C1",
+      "kind": "audio",
+      "title": "05_sayfa_48_ucus_sendromu",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63436",
+      "path": "assets/yedi-iklim/C1/63436.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-c1-ders-kitabi",
+      "bytes": 6510179,
+      "sha256": "c99168e01774206c30de9e0accd720166ac4ac016e64eddf8b30ef8e678c84ed"
+    },
+    {
+      "level": "C1",
+      "kind": "audio",
+      "title": "06_sayfa_49_yapay_zeka",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63441",
+      "path": "assets/yedi-iklim/C1/63441.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-c1-ders-kitabi",
+      "bytes": 7893624,
+      "sha256": "d1c0d8d64f7e48d1ff9f6cf0804cdeab9d1478801c8b0ad304cd781c02b714b5"
+    },
+    {
+      "level": "C1",
+      "kind": "audio",
+      "title": "07_sayfa_58_dilin_tadi",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63457",
+      "path": "assets/yedi-iklim/C1/63457.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-c1-ders-kitabi",
+      "bytes": 15344164,
+      "sha256": "ab6d7dc83f97d4e53b28a52b20fd2e398874ff2354e6fcbe0e9cf63fd229195f"
+    },
+    {
+      "level": "C1",
+      "kind": "audio",
+      "title": "08_sayfa_61_yasayan_insan_degeri",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63455",
+      "path": "assets/yedi-iklim/C1/63455.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-c1-ders-kitabi",
+      "bytes": 13507652,
+      "sha256": "0d31d16fc53935c3c7f180a8666a5d61c48a71e48d26cfbc6fab21ffd5896e52"
+    },
+    {
+      "level": "C1",
+      "kind": "audio",
+      "title": "09_sayfa_66_ask_mektuplari",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63454",
+      "path": "assets/yedi-iklim/C1/63454.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-c1-ders-kitabi",
+      "bytes": 11720458,
+      "sha256": "60df5acf95333e0b74d75443a3a29c7d7737920dff1a1e057e6c11c49ca8163a"
+    },
+    {
+      "level": "C1",
+      "kind": "audio",
+      "title": "10_sayfa_76_hayvan_davranislarinin_insandaki_gorunumleri",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63465",
+      "path": "assets/yedi-iklim/C1/63465.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-c1-ders-kitabi",
+      "bytes": 13670804,
+      "sha256": "f65226a324a33318325de1a5a8b96c39c51ecf4f57ead048cfaa0842c14b56c7"
+    },
+    {
+      "level": "C1",
+      "kind": "audio",
+      "title": "11_sayfa_84_benzerlikler",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63460",
+      "path": "assets/yedi-iklim/C1/63460.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-c1-ders-kitabi",
+      "bytes": 6949036,
+      "sha256": "fce22705bb9f8efcbf34b0ac7d717ee6095a16dcea3807d6ad12d5898c97521f"
+    },
+    {
+      "level": "C1",
+      "kind": "audio",
+      "title": "12_sayfa_83_cicek_kulturu",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63463",
+      "path": "assets/yedi-iklim/C1/63463.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-c1-ders-kitabi",
+      "bytes": 10994881,
+      "sha256": "06d3636d9f904777b913b40f32151cea2b61a5e8c3ba7ba94e0574c4848b7a3f"
+    },
+    {
+      "level": "C1",
+      "kind": "audio",
+      "title": "13_sayfa_87_isim_bulma_sanati",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63472",
+      "path": "assets/yedi-iklim/C1/63472.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-c1-ders-kitabi",
+      "bytes": 11835815,
+      "sha256": "3f2f3dcee2b1b1fae530041b2abc42b8878a7095eaa0539d9f3f27fa4d9369b4"
+    },
+    {
+      "level": "C1",
+      "kind": "audio",
+      "title": "14_sayfa_94_dilimizi_yaziyoruz_ve_okuyoruz",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63471",
+      "path": "assets/yedi-iklim/C1/63471.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-c1-ders-kitabi",
+      "bytes": 5871537,
+      "sha256": "ec8f46c1e490f516f835dcd30e899acb66ea1df08fbff425941a3f8ccdc4a729"
+    },
+    {
+      "level": "C1",
+      "kind": "audio",
+      "title": "15_sayfa_100_maya_medeniyeti",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63470",
+      "path": "assets/yedi-iklim/C1/63470.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-c1-ders-kitabi",
+      "bytes": 4752243,
+      "sha256": "2b9473b26f89fc0013c9b9241dd4c0725af01d328e25dcfb2f4d494fb5bc3eb6"
+    },
+    {
+      "level": "C1",
+      "kind": "audio",
+      "title": "16_sayfa_106_sultan_sairler",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63477",
+      "path": "assets/yedi-iklim/C1/63477.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-c1-ders-kitabi",
+      "bytes": 8387652,
+      "sha256": "4deb7026705f628417b7c8ac03456ac6008a867393b2c4549fbb175d45f0c9e2"
+    },
+    {
+      "level": "C1",
+      "kind": "audio",
+      "title": "17_sayfa_117_sempozyuma_ulasim",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63476",
+      "path": "assets/yedi-iklim/C1/63476.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-c1-ders-kitabi",
+      "bytes": 5670111,
+      "sha256": "27d55a80821ea7f29d6a497544bbca34268a4bf33aa6db4121e13465d1464c12"
+    },
+    {
+      "level": "C1",
+      "kind": "audio",
+      "title": "18_sayfa_119_vi_dunya_dili_turkce_sempozyumu_acis_konusmasi",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63478",
+      "path": "assets/yedi-iklim/C1/63478.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-c1-ders-kitabi",
+      "bytes": 9903231,
+      "sha256": "2830ff4eaa2fec9f11c3736559ad43aa733851d08086c2dd5e8ba9aab09cda80"
+    },
+    {
+      "level": "C1",
+      "kind": "audio",
+      "title": "19_sayfa_123_kulturel_karsilastirmalar_sempozyumu",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63483",
+      "path": "assets/yedi-iklim/C1/63483.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-c1-ders-kitabi",
+      "bytes": 6352338,
+      "sha256": "66cb6a4e6ddd0713497aabf3b8f638819a421fb58fcd6c9dd84e893dca12e47e"
+    },
+    {
+      "level": "C1",
+      "kind": "audio",
+      "title": "20_sayfa_135_pablo_picasso_ve_4_rakami",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63480",
+      "path": "assets/yedi-iklim/C1/63480.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-c1-ders-kitabi",
+      "bytes": 2094858,
+      "sha256": "ca0ac10c5ff0a44a31c43fd6c1a3788bf27e4052f3885189202319ee458168cb"
+    },
+    {
+      "level": "C1",
+      "kind": "audio",
+      "title": "21_sayfa_135_satrancin_hikayesi_ve_uslu_sayilar",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63486",
+      "path": "assets/yedi-iklim/C1/63486.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-c1-ders-kitabi",
+      "bytes": 7456438,
+      "sha256": "6de54c29f1febdba2eae42061348cd77873403768fa8b49d4b2cdd529f777f71"
+    },
+    {
+      "level": "C1",
+      "kind": "audio",
+      "title": "22_sayfa_136_matematigin_hayatimizdaki_yeri_ve_onemi",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63491",
+      "path": "assets/yedi-iklim/C1/63491.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-c1-ders-kitabi",
+      "bytes": 10104628,
+      "sha256": "7fa070aa14f3bd6cb8aeb0f061f826ff3ab239afbba54bbc8972f22fa55b60bb"
+    },
+    {
+      "level": "C1",
+      "kind": "audio",
+      "title": "23_sayfa_142_turkiye_burslari",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63490",
+      "path": "assets/yedi-iklim/C1/63490.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-c1-ders-kitabi",
+      "bytes": 5135929,
+      "sha256": "838eac6284bfbc20e47d105d7f1770a881709e8a4875b76b66fa8d3e04ae9220"
+    },
+    {
+      "level": "C1",
+      "kind": "audio",
+      "title": "24_sayfa_149_sayilarin_uguruna_inanir_misiniz",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63500",
+      "path": "assets/yedi-iklim/C1/63500.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-c1-ders-kitabi",
+      "bytes": 12174362,
+      "sha256": "ef997873d8ddecafc3686e56ca54571299d9b3a85591bab16773b004d5edc72d"
+    },
+    {
+      "level": "C1",
+      "kind": "audio",
+      "title": "25_sayfa_160_baris_manco_kazma",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63499",
+      "path": "assets/yedi-iklim/C1/63499.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-c1-ders-kitabi",
+      "bytes": 7690496,
+      "sha256": "4a325251ac03c6a9c2474cfd867f066c4b2141fa4d1cda33736ebf558abaa4dc"
+    },
+    {
+      "level": "C1",
+      "kind": "audio",
+      "title": "26_sayfa_161_karalamalar_ve_karakter_tahlili",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63503",
+      "path": "assets/yedi-iklim/C1/63503.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-c1-ders-kitabi",
+      "bytes": 12034763,
+      "sha256": "cf0e540ec2046ef5453f49b1b5b1d60def5ef27dcf5031014f9ab0b00d518291"
+    },
+    {
+      "level": "C1",
+      "kind": "audio",
+      "title": "27_sayfa_167_bedeniniz_sizi_ele_veriyor",
+      "url": "https://www.yee.org.tr/api/v1/media/file/63512",
+      "path": "assets/yedi-iklim/C1/63512.mp3",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-c1-ders-kitabi",
+      "bytes": 12904118,
+      "sha256": "6c505f17212b9df1bd406eac5cb4836784153c02036fd23c1f9c1efd975d574a"
+    },
+    {
+      "level": "C1",
+      "kind": "pdf",
+      "title": "Yedi İklim Türkçe C1 Ders Kitabı",
+      "url": "https://www.yee.org.tr/api/v1/media/file/62537",
+      "path": "assets/yedi-iklim/C1/ders-kitabi.pdf",
+      "source": "https://www.yee.org.tr/en/yayinlar/yedi-iklim-turkce-c1-ders-kitabi",
+      "bytes": 6484667,
+      "sha256": "4f5d03077b2e76c58cdc65248439b8bd0751ec0a3004eaceb3dbb5d29a38ca81"
+    }
+  ],
+  "failed": []
+}

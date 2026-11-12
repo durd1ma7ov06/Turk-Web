@@ -1,0 +1,9 @@
+data/
+.tools/
+.env
+.env.*
+*.zip
+*.sqlite*
+node_modules/
+*.log
+
