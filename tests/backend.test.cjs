@@ -15,6 +15,25 @@ test('another user cannot see first account results or use owner API',async()=>{
 test('server validates learning data and imposes a body limit',async()=>{const auth={method:'PUT',cookie:first.cookie,csrf:first.data.csrf};assert.equal((await request('/api/state',{...auth,body:{revision:1,state:{level:'ZZ'}}})).status,400);assert.equal((await request('/api/state',{...auth,body:{revision:1,state:{...emptyState(),drafts:{essay:'x'.repeat(270000)}}}})).status,413)});
 test('existing sessions can log out and immediately lose access',async()=>{const result=await request('/api/auth/logout',{method:'POST',cookie:second.cookie,csrf:second.data.csrf,body:{}});assert.equal(result.status,200);assert.match(result.headers.get('set-cookie'),/Max-Age=0/);assert.equal((await request('/api/state',{cookie:second.cookie})).status,401)});
 test('owner API checks role on server, not a client-provided role',async()=>{api.db.prepare("UPDATE users SET role='owner' WHERE id=?").run(first.data.user.id);const result=await request('/api/admin/overview',{cookie:first.cookie});assert.equal(result.status,200);assert.equal(result.data.users,2);assert.equal(result.data.storage,'SQLite')});
+test('owner can manage custom content and non-owner cannot',async()=>{
+ const nonOwner=await request('/api/content/custom',{method:'POST',body:{kind:'word',level:'A1',title:'deneme',payload:{translation:'sinov'}}});
+ assert.equal(nonOwner.status,401);
+ const created=await request('/api/content/custom',{method:'POST',cookie:first.cookie,csrf:first.data.csrf,body:{kind:'word',level:'A1',title:'deneme',payload:{translation:'sinov'}}});
+ assert.equal(created.status,201);
+ const list=await request('/api/content/custom');
+ assert.equal(list.status,200);
+ assert.equal(list.data.items.length,1);
+ const deleted=await request('/api/content/custom/'+created.data.id,{method:'DELETE',cookie:first.cookie,csrf:first.data.csrf});
+ assert.equal(deleted.status,200);
+});
+test('authenticated user can change their password',async()=>{
+ const changed=await request('/api/auth/change-password',{method:'POST',cookie:first.cookie,csrf:first.data.csrf,body:{oldPassword:'Test-only-password-49',newPassword:'Brand-new-password-123'}});
+ assert.equal(changed.status,200);
+ const wrongLogin=await request('/api/auth/login',{method:'POST',body:{email:'first@example.test',password:'Test-only-password-49'}});
+ assert.equal(wrongLogin.status,401);
+ const correctLogin=await request('/api/auth/login',{method:'POST',body:{email:'first@example.test',password:'Brand-new-password-123'}});
+ assert.equal(correctLogin.status,200);
+});
 test('repeated login attempts are rate limited',async()=>{let result;for(let i=0;i<13;i++)result=await request('/api/auth/login',{method:'POST',body:{email:'unknown@example.test',password:'Test-not-valid-49'}});assert.equal(result.status,429);assert.equal(result.headers.get('retry-after'),'60')});
 
 test('saved state survives opening another SQLite connection',()=>{const other=createApi({dbPath:path.join(folder,'test.sqlite')});const row=other.db.prepare('SELECT state_json FROM learning_state WHERE user_id=?').get(first.data.user.id);assert.equal(JSON.parse(row.state_json).level,'B1');other.close()});

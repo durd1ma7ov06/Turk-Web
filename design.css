@@ -4,3 +4,33 @@
 @media(max-width:980px){.dashboard-grid{grid-template-columns:1fr}.dashboard-aside{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.library-promo h3{margin-top:55px}.account-invitation{align-self:stretch}.journey-hero{grid-template-columns:1fr 1fr;min-height:270px}.journey-copy h2{font-size:30px}.journey-illustration{min-height:210px}.learning-metric div>span{font-size:10px}.practice-tiles{grid-template-columns:repeat(4,1fr)}.welcome-heading h1{font-size:30px}.account-control span:last-child{display:none}}
 @media(max-width:640px){body>#app>aside{width:240px;padding:25px 20px}.main{margin-left:0}.main>.topbar{height:67px;padding:0 17px}.content{padding:24px 17px}.top-right{gap:9px}.top-right>.streak{display:none}.sync-control{font-size:8px;max-width:195px;border:0;padding:4px}.welcome-heading{align-items:flex-start;margin-bottom:22px}.welcome-heading .eyebrow{font-size:7px;letter-spacing:1.3px}.welcome-heading h1{font-size:27px;margin-top:8px}.welcome-heading p{font-size:10px;line-height:1.7}.welcome-date{display:none}.journey-hero{grid-template-columns:1fr;padding:25px;min-height:285px}.journey-copy h2{font-size:29px;max-width:250px}.journey-copy p{font-size:10px;max-width:190px}.journey-copy .primary{font-size:10px}.journey-illustration{position:absolute;right:-30px;bottom:-4px;width:155px;min-height:160px;opacity:.7}.journey-path,.journey-step,.journey-ticket{display:none}.journey-sun{top:8px;right:0;width:145px;height:145px;font-size:75px}.journey-copy{position:relative}.learning-metrics{gap:7px;margin-top:12px;margin-bottom:25px}.learning-metric{padding:13px 8px;display:block}.metric-icon{width:28px;height:28px;margin-bottom:10px;border-radius:7px}.metric-icon svg{width:16px}.learning-metric b{font-size:24px}.learning-metric div>span{font-size:8px;line-height:1.5}.study-section .section-head h2{font-size:16px}.study-section .text-link{font-size:9px}.study-section .lesson-row{padding:13px;gap:10px}.study-section .lesson-info h3{font-size:11px}.study-section .lesson-info small{font-size:9px}.lesson-symbol{width:34px;height:36px}.practice-tiles{grid-template-columns:1fr 1fr}.practice-tile{padding:14px}.dashboard-aside{gap:10px;margin-top:7px}.daily-goal,.level-summary,.library-promo,.account-invitation{padding:15px}.daily-goal h3,.level-summary h3{font-size:11px}.daily-ring{height:100px;width:100px;margin-top:17px}.daily-ring>div{height:83px;width:83px}.daily-ring b{font-size:27px}.daily-goal p{font-size:9px;line-height:1.8}.goal-foot{font-size:8px;gap:5px}.library-promo{grid-column:1 / -1;padding:22px}.library-promo h3{margin-top:20px;font-size:24px;max-width:200px}.record-graphic{right:24px;top:45px;width:130px;height:130px}.library-promo .primary{max-width:230px}.account-invitation{grid-column:1 / -1}.speech-dock{left:10px}.profile-summary{gap:6px}.profile-summary>div{padding:11px}.profile-summary small{line-height:1.6}.account-form input{font-size:16px}.main>.greeting{padding:0}.streak{font-size:10px}dialog{width:calc(100% - 26px);max-height:90dvh}.auth-heading h2{font-size:23px}.daily-goal .section-head{flex-wrap:nowrap}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+/* Turix Dark Theme Adjustments for Modern Design */
+[data-theme="dark"] body>#app>aside{background:#16211a;border-color:var(--line)}
+[data-theme="dark"] .main>.topbar{background:#16211a;border-color:var(--line)}
+[data-theme="dark"] .journey-hero{background:#1a281f;border-color:var(--line)}
+[data-theme="dark"] .journey-copy h2{color:#d5e5d8}
+[data-theme="dark"] .journey-copy h2 span{color:#8fb199}
+[data-theme="dark"] .journey-copy p{color:#9cb09f}
+[data-theme="dark"] .journey-copy p b{color:#bad8be}
+[data-theme="dark"] .journey-ticket{background:#1a251e;box-shadow:0 8px 18px #00000050}
+[data-theme="dark"] .journey-ticket b{color:#9ec2a8}
+[data-theme="dark"] .journey-ticket small{color:#7c8c80}
+[data-theme="dark"] .pill{background:#1c2d21;border-color:#2a4431;color:#9ec2a8}
+[data-theme="dark"] .learning-metric{background:var(--paper);border-color:var(--line)}
+[data-theme="dark"] .learning-metric b{color:var(--ink)}
+[data-theme="dark"] .daily-goal,.level-summary,.account-invitation{background:var(--paper);border-color:var(--line)}
+[data-theme="dark"] .daily-ring>div{background:var(--paper)}
+[data-theme="dark"] .study-section .lesson-row{background:var(--paper);border-color:var(--line)}
+[data-theme="dark"] .study-section .lesson-info h3{color:var(--ink)}
+[data-theme="dark"] .practice-tile{background:var(--paper);border-color:var(--line);color:var(--ink)}
+[data-theme="dark"] .practice-tile:hover{background:#233429;border-color:#3d5a46}
+[data-theme="dark"] .library-promo{background:#1e2921;border-color:var(--line)}
+[data-theme="dark"] .library-promo h3{color:#cce0cf}
+[data-theme="dark"] .library-promo p{color:#92a496}
+[data-theme="dark"] .sync-control{background:#1a251e;border-color:var(--line);color:#9ab29f}
+[data-theme="dark"] .welcome-heading h1{color:var(--ink)}
+[data-theme="dark"] .account-form input{background:#141f17;border-color:var(--line);color:var(--ink)}
+[data-theme="dark"] .profile-summary>div{background:#1d2b22}
+[data-theme="dark"] .account-control b{color:var(--ink)}
+

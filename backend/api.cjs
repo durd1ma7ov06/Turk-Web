@@ -11,7 +11,8 @@ function createApi({dbPath=path.join(__dirname,'../data/turkce.sqlite'),secureCo
  CREATE TABLE IF NOT EXISTS users(id INTEGER PRIMARY KEY,email TEXT NOT NULL UNIQUE,name TEXT NOT NULL,password_hash TEXT NOT NULL,role TEXT NOT NULL DEFAULT 'student' CHECK(role IN ('student','owner')),created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP);
  CREATE TABLE IF NOT EXISTS sessions(token_hash TEXT PRIMARY KEY,user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,csrf TEXT NOT NULL,expires_at INTEGER NOT NULL);
  CREATE INDEX IF NOT EXISTS sessions_user ON sessions(user_id);
- CREATE TABLE IF NOT EXISTS learning_state(user_id INTEGER PRIMARY KEY REFERENCES users(id) ON DELETE CASCADE,state_json TEXT NOT NULL,revision INTEGER NOT NULL DEFAULT 1,updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP);`);
+ CREATE TABLE IF NOT EXISTS learning_state(user_id INTEGER PRIMARY KEY REFERENCES users(id) ON DELETE CASCADE,state_json TEXT NOT NULL,revision INTEGER NOT NULL DEFAULT 1,updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP);
+ CREATE TABLE IF NOT EXISTS custom_content(id INTEGER PRIMARY KEY,kind TEXT NOT NULL CHECK(kind IN ('lesson','word')),level TEXT NOT NULL CHECK(level IN ('A1','A2','B1','B2','C1')),title TEXT NOT NULL,payload_json TEXT NOT NULL,created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP);`);
  const limits=new Map();let requests=0;
  function limit(key,max,windowMs){const now=Date.now();if(++requests%100===0){for(const [k,v]of limits)if(v.until<now)limits.delete(k);db.prepare('DELETE FROM sessions WHERE expires_at < ?').run(now)}let v=limits.get(key);if(!v||v.until<now){v={count:0,until:now+windowMs};limits.set(key,v)}return ++v.count<=max}
  function reply(res,status,data,extra={}){res.writeHead(status,{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff',...extra});res.end(JSON.stringify(data))}
@@ -25,7 +26,7 @@ function createApi({dbPath=path.join(__dirname,'../data/turkce.sqlite'),secureCo
   if(!url.pathname.startsWith('/api/'))return false;
   try{
    const route=url.pathname,method=req.method,ip=req.socket.remoteAddress||'local';
-   if(!['GET','POST','PUT'].includes(method)){reply(res,405,{error:'Bu usul qo‘llanmaydi.'});return true}
+   if(!['GET','POST','PUT','DELETE'].includes(method)){reply(res,405,{error:'Bu usul qo‘llanmaydi.'});return true}
    if(method!=='GET'){
     let origin;try{origin=new URL(req.headers.origin).host}catch{}
     if(origin!==req.headers.host||req.headers['sec-fetch-site']==='cross-site'){reply(res,403,{error:'So‘rov manbasi tasdiqlanmadi.'});return true}
@@ -48,6 +49,10 @@ function createApi({dbPath=path.join(__dirname,'../data/turkce.sqlite'),secureCo
    }
    const current=session(req);
    if(route==='/api/auth/session'&&method==='GET'){reply(res,200,current?{user:publicUser(current),csrf:current.csrf}:{user:null});return true}
+   if(route==='/api/content/custom'&&method==='GET'){
+    const rows=db.prepare('SELECT id,kind,level,title,payload_json,created_at FROM custom_content ORDER BY id ASC').all();
+    reply(res,200,{items:rows.map(r=>({id:r.id,kind:r.kind,level:r.level,title:r.title,payload:JSON.parse(r.payload_json),createdAt:r.created_at}))});return true;
+   }
    if(!current){reply(res,401,{error:'Hisobingizga kiring.'});return true}
    if(method!=='GET'&&req.headers['x-csrf-token']!==current.csrf){reply(res,403,{error:'Sessiya tasdig‘i yaroqsiz. Sahifani yangilang.'});return true}
    if(route==='/api/auth/logout'&&method==='POST'){db.prepare('DELETE FROM sessions WHERE token_hash=?').run(current.token_hash);reply(res,200,{ok:true},{'Set-Cookie':cookie('',true)});return true}
@@ -58,6 +63,40 @@ function createApi({dbPath=path.join(__dirname,'../data/turkce.sqlite'),secureCo
     if(!Number.isSafeInteger(data.revision)||data.revision<0||!validState(data.state)){reply(res,400,{error:'O‘quv ma’lumotlari formati noto‘g‘ri.'});return true}
     const json=JSON.stringify(data.state);let revision;
     db.exec('BEGIN IMMEDIATE');try{const row=db.prepare('SELECT revision FROM learning_state WHERE user_id=?').get(current.id);if((row?.revision||0)!==data.revision){db.exec('ROLLBACK');reply(res,409,{error:'Boshqa seansdagi natijalar yangilangan. Sahifani yangilab qayta yuklang.'});return true}revision=data.revision+1;db.prepare('INSERT INTO learning_state(user_id,state_json,revision) VALUES(?,?,?) ON CONFLICT(user_id) DO UPDATE SET state_json=excluded.state_json,revision=excluded.revision,updated_at=CURRENT_TIMESTAMP').run(current.id,json,revision);db.exec('COMMIT')}catch(err){db.exec('ROLLBACK');throw err}reply(res,200,{ok:true,revision});return true;
+   }
+   if(route==='/api/content/custom'&&method==='POST'){
+    if(!current||current.role!=='owner'){reply(res,403,{error:'Bu amal faqat loyiha egasi uchun ruxsat etilgan.'});return true}
+    const data=await body(req);
+    if(!['lesson','word'].includes(data.kind)||!['A1','A2','B1','B2','C1'].includes(data.level)||typeof data.title!=='string'||!data.title.trim()||!data.payload||typeof data.payload!=='object'){
+     reply(res,400,{error:'Ma’lumotlar formati to‘liq emas yoki xato.'});return true;
+    }
+    const resRow=db.prepare('INSERT INTO custom_content(kind,level,title,payload_json) VALUES(?,?,?,?)').run(data.kind,data.level,data.title.trim(),JSON.stringify(data.payload));
+    reply(res,201,{ok:true,id:Number(resRow.lastInsertRowid)});return true;
+   }
+   if(route.startsWith('/api/content/custom/')&&method==='DELETE'){
+    if(!current||current.role!=='owner'){reply(res,403,{error:'Ruxsat berilmagan.'});return true}
+    const id=Number(route.split('/').pop());
+    if(!Number.isSafeInteger(id)||id<=0){reply(res,400,{error:'ID noto‘g‘ri.'});return true}
+    db.prepare('DELETE FROM custom_content WHERE id=?').run(id);
+    reply(res,200,{ok:true});return true;
+   }
+   if(route==='/api/auth/change-password'&&method==='POST'){
+    const data=await body(req),oldPassword=data.oldPassword,newPassword=data.newPassword;
+    if(typeof oldPassword!=='string'||typeof newPassword!=='string'||newPassword.length<10||newPassword.length>128){
+     reply(res,400,{error:'Yangi parol kamida 10 ta belgidan iborat bo‘lishi lozim.'});return true;
+    }
+    const userRow=db.prepare('SELECT password_hash FROM users WHERE id=?').get(current.id);
+    const [salt,stored]=userRow.password_hash.split(':');
+    const oldKey=await scrypt(oldPassword,salt,64);
+    if(!timingSafeEqual(Buffer.from(stored,'hex'),oldKey)){reply(res,401,{error:'Amaldagi eski parol noto‘g‘ri.'});return true}
+    const newSalt=randomBytes(16).toString('hex'),newKey=await scrypt(newPassword,newSalt,64);
+    db.prepare('UPDATE users SET password_hash=? WHERE id=?').run(newSalt+':'+newKey.toString('hex'),current.id);
+    reply(res,200,{ok:true,message:'Parol muvaffaqiyatli o‘zgartirildi.'});return true;
+   }
+   if(route==='/api/admin/users'&&method==='GET'){
+    if(current.role!=='owner'){reply(res,403,{error:'Ruxsat berilmagan.'});return true}
+    const rows=db.prepare('SELECT u.id,u.name,u.email,u.role,u.created_at,ls.revision,ls.updated_at FROM users u LEFT JOIN learning_state ls ON u.id=ls.user_id ORDER BY u.id DESC').all();
+    reply(res,200,{users:rows});return true;
    }
    if(route==='/api/admin/overview'&&method==='GET'){
     if(current.role!=='owner'){reply(res,403,{error:'Bu bo‘lim faqat loyiha egasi uchun.'});return true}
