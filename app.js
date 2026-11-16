@@ -14,8 +14,9 @@ let vocabQuery='',vocabTab='card',speechRecognition=null;
 const labels={library:'Audio va kitoblar',dashboard:'O‘quv rejam',grammar:'Dil bilgisi',vocab:'So‘z xazinasi',reading:'Okuma',listening:'Dinleme',writing:'Yazma',speaking:'Konuşma',progress:'Mening natijalarim',mock:'Mock testlar'};
 function save(){try{localStorage.setItem(stateStorageKey(),JSON.stringify(state));queueStateSync()}catch{toast('Brauzer xotirasi yopiq. Natijalarni saqlab bo‘lmadi.')}}
 function toast(t){const e=document.getElementById('toast');e.textContent=t;e.style.display='block';clearTimeout(window.toastTimer);window.toastTimer=setTimeout(()=>e.style.display='none',3200)}
-function navigate(p){stopTurkishSpeech();if(recorder&&recorder.state==='recording')recorder.stop();page=p;wordIndex=0;flipped=false;render();window.scrollTo(0,0)}
-function setLevel(l){stopTurkishSpeech();if(recorder&&recorder.state==='recording')recorder.stop();level=l;state.level=l;save();wordIndex=0;flipped=false;render()}
+function stopAudioRecording(){if(recorder&&recorder.state==='recording')recorder.stop();if(speechRecognition)try{speechRecognition.stop();speechRecognition=null}catch{}}
+function navigate(p){stopTurkishSpeech();stopAudioRecording();page=p;wordIndex=0;flipped=false;render();window.scrollTo(0,0)}
+function setLevel(l){stopTurkishSpeech();stopAudioRecording();level=l;state.level=l;save();wordIndex=0;flipped=false;render()}
 function complete(id,type,correct=true){if(!state.completed.includes(id))state.completed.push(id);state.history.push({id,type,correct,date:new Date().toISOString()});save()}
 function levels(){return `<div class="levels">${LEVELS.map(l=>`<button class="level ${l===level?'active':''}" onclick="setLevel('${l}')">${l}</button>`).join('')}<span style="margin:auto 0 auto 8px;font-size:10px;color:var(--muted)">Darajangizni tanlang</span></div>`}
 function lessonRows(){return `<div class="lesson-list">${COURSES[level].map((c,i)=>`<button class="lesson-row" onclick="openLesson(${i})"><span class="lesson-symbol">${state.completed.includes(`grammar-${level}-${i}`)?'✓':String(i+1).padStart(2,'0')}</span><span class="lesson-info"><h3>${c[0]}</h3><small>${c[1]} · 5 daqiqa · 1 mashq</small></span><span class="lesson-tag">${state.completed.includes(`grammar-${level}-${i}`)?'Yakunlangan':'Grammatika'}</span><span class="arrow">›</span></button>`).join('')}</div>`}
@@ -61,11 +62,18 @@ function analyzeTurkishText(text){
  const sentences=(text.match(/[.!?]+/g)||[]).length;
  const paragraphs=text.trim().split(/\n\s*\n/).filter(Boolean).length;
  const kalin=/[aıouAIOU]/,ince=/[eiöüEİÖÜ]/;
+ const exceptions=new Set(['kitap','kalem','dünya','insan','merhaba','kardeş','anne','elma','otobüs','gazete','dakika','saat','bugün','hastane','belediye','kahvaltı','telefon','televizyon','üniversite','müzik','ziyaret','huzur','memnun','vakit','zaman','fikir','cevap','soru','hayat','şehir','resim','sabah','akşam']);
  let tested=0,passed=0;
  for(const w of words){
-  const clean=w.replace(/[^a-zA-ZçğıöşüÇĞİÖŞÜ]/g,'');
+  let clean=w.replace(/[^a-zA-ZçğıöşüÇĞİÖŞÜ]/g,'').toLowerCase();
+  if(!clean)continue;
+  const vowels=(clean.match(/[aıoueöüiAIOUEÖÜİ]/g)||[]).length;
+  if(vowels<2)continue;
+  tested++;
+  if(exceptions.has(clean)){passed++;continue;}
+  clean=clean.replace(/i?yor(um|sun|uz|sunuz|lar)?$/i,'');
   const hasK=kalin.test(clean),hasI=ince.test(clean);
-  if(hasK&&hasI){tested++}else if(hasK||hasI){tested++;passed++}
+  if((hasK&&!hasI)||(!hasK&&hasI)||clean.length<3)passed++;
  }
  const harmonyRate=tested>0?Math.round((passed/tested)*100):100;
  const trChars=(text.match(/[çğıöşüÇĞİÖŞÜ]/g)||[]).length;

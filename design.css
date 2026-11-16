@@ -33,4 +33,13 @@
 [data-theme="dark"] .account-form input{background:#141f17;border-color:var(--line);color:var(--ink)}
 [data-theme="dark"] .profile-summary>div{background:#1d2b22}
 [data-theme="dark"] .account-control b{color:var(--ink)}
+[data-theme="dark"] .metric-icon.sage{background:#203326;color:#8cc399}
+[data-theme="dark"] .metric-icon.sand{background:#322c1e;color:#dec37b}
+[data-theme="dark"] .metric-icon.rose{background:#342320;color:#e2917d}
+[data-theme="dark"] .lesson-symbol{background:#1d2d22;color:#7ec892}
+[data-theme="dark"] .lesson-row:nth-child(2n) .lesson-symbol{background:#2d2220;color:#e28974}
+[data-theme="dark"] .card.audio-player{background:#19251e}
+[data-theme="dark"] #library-search{background:#16211a;color:var(--ink);border-color:var(--line)}
+[data-theme="dark"] select#audio-speed{background:#16211a;color:var(--ink);border-color:var(--line)}
+
 

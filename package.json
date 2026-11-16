@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "node server.cjs",
     "start": "node server.cjs",
-    "check": "node --check app.js && node --check rights.js && node --check speech.js && node --check speech-data.js && node --check mock-data.js && node --check mock.js && node --check content.js && node --check materials.js && node --check library.js && node --check library-data.js && node --check server.cjs && node --check backend/api.cjs && node --check account.js && node --check dashboard.js",
+    "make-owner": "node scripts/make-owner.cjs",
+    "check": "node --check app.js && node --check rights.js && node --check speech.js && node --check speech-data.js && node --check mock-data.js && node --check mock.js && node --check content.js && node --check materials.js && node --check library.js && node --check library-data.js && node --check server.cjs && node --check backend/api.cjs && node --check account.js && node --check dashboard.js && node --check scripts/make-owner.cjs",
     "test": "node --test tests/backend.test.cjs"
   },
   "engines": {

@@ -41,7 +41,9 @@ function createApi({dbPath=path.join(__dirname,'../data/turkce.sqlite'),secureCo
      const name=typeof data.name==='string'?data.name.trim():'';
      if(name.length<2||name.length>60){reply(res,400,{error:'Ism 2–60 belgidan iborat bo‘lsin.'});return true}
      const salt=randomBytes(16).toString('hex'),key=await scrypt(password,salt,64);
-     try{const record=db.prepare('INSERT INTO users(email,name,password_hash) VALUES(?,?,?)').run(email,name,salt+':'+key.toString('hex'));issue(res,{id:Number(record.lastInsertRowid),email,name,role:'student'})}catch(err){if(err.code?.includes('SQLITE_CONSTRAINT')||[1555,2067].includes(err.errcode))reply(res,409,{error:'Bu email uchun hisob mavjud. Kirish bo‘limidan foydalaning.'});else throw err}
+     const isOwner=Boolean(process.env.OWNER_EMAIL&&email===process.env.OWNER_EMAIL.trim().toLowerCase());
+     const role=isOwner?'owner':'student';
+     try{const record=db.prepare('INSERT INTO users(email,name,password_hash,role) VALUES(?,?,?,?)').run(email,name,salt+':'+key.toString('hex'),role);issue(res,{id:Number(record.lastInsertRowid),email,name,role})}catch(err){if(err.code?.includes('SQLITE_CONSTRAINT')||[1555,2067].includes(err.errcode))reply(res,409,{error:'Bu email uchun hisob mavjud. Kirish bo‘limidan foydalaning.'});else throw err}
     }else{
      const user=db.prepare('SELECT * FROM users WHERE email=?').get(email);const [salt,stored]=user?user.password_hash.split(':'):['0'.repeat(32),'0'.repeat(128)];const key=await scrypt(password,salt,64);
      if(!user||!timingSafeEqual(Buffer.from(stored,'hex'),key)){reply(res,401,{error:'Email yoki parol noto‘g‘ri.'});return true}issue(res,user)
